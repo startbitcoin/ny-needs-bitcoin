@@ -1095,6 +1095,15 @@ a:focus, button:focus {
     margin-top: 55px; }
     #blog #posts .post {
       margin-bottom: 0px;}
+    #blog #posts .post li {
+      font-family: Source Sans Pro, Helvetica Neue, Arial;
+      font-size: 16px;
+      color: #4d4d4d;
+      font-size: 16px;
+      line-height: 24px;
+      width: 83%;
+      font-weight: normal;
+      margin-left: -23px; }
       #blog #posts .post .pic {
         border: 0px; }
         #blog #posts .post .pic:hover img {
