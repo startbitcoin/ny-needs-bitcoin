@@ -44,7 +44,7 @@
     font-size: 14px;
     font-weight: 500; }
 
-.button.blue {background-color:#3B88B6;}
+.button.blue {background-color:#3B88B6;font-weight: bold;}
 
 .button-outline {
   -webkit-font-smoothing: antialiased;
