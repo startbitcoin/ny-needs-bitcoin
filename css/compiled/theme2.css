@@ -6,9 +6,6 @@
 *:focus {
   outline: 0; }
 
-  *:focus {
-  outline: 0; }
-
 .button {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -1090,7 +1087,8 @@ a:focus, button:focus {
 /* What They're Saying Styles */
 
 #blog {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased; 
+  text-align: left;}
   #blog #posts {
     margin-top: 55px; }
     #blog #posts .post {
@@ -1174,10 +1172,12 @@ a:focus, button:focus {
         margin-top: 18px;
         font-size: 16px;
         line-height: 27px;
-        color: #4d4d4d; }
+        color: #4d4d4d; 
+      text-align: left;}
         @media (min-width: 992px) {
           #blog #posts .post .intro {
-            width: 90%; } }
+            width: 90%; 
+            text-align: left;} }
       #blog #posts .post .continue-reading {
         font-family: Source Sans Pro, Helvetica Neue, Arial;
         font-size: 15px;
@@ -1187,7 +1187,8 @@ a:focus, button:focus {
         -moz-transition: color 0.25s linear;
         -ms-transition: color 0.25s linear;
         -o-transition: color 0.25s linear;
-        transition: color 0.25s linear; }
+        transition: color 0.25s linear; 
+      text-align: left;}
     @media (max-width: 991px) {
       #blog #posts .pages {
         text-align: center; } }

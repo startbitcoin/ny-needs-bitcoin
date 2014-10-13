@@ -658,6 +658,7 @@ a:focus, button:focus {
 
 /* pages */
 #home #hero {
+  text-align: left;
   overflow: hidden;
   background: #4B4848;
   background-size: cover;
@@ -826,7 +827,9 @@ a:focus, button:focus {
       line-height: 24px;
       width: 83%;
       font-weight: normal;
-      margin-left: -23px; }
+      margin-left: -23px; 
+    
+    text-align: left;}
     #home #features .feature .info p {
       color: #6C7279;
       font-size: 14px;
